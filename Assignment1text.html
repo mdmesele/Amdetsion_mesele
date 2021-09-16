@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="color: white;">
+    
+    Compare and contrast C# and Python programming languages <br>
+
+    Overview of C#
+
+    C# is a powerful language that closely follows the traditional C & C++ constructs, but it is more modern and easier to learn. Developed by Microsoft, this Object-oriented programming language also has a lot in common with Java. C# code can be compiled on different platforms and comes with a host of strong features such as –
+    •	Integration with .NET framework
+    •	Component-oriented
+    •	High-level structured language
+    •	Modern syntax; easy to learn
+    •	Rich standard library
+    •	Automatic garbage collection
+    The basic structure of a C# program is similar to that of C++ and Java. A namespace declaration, class definition (variables and methods), main method – that’s it. Here is a simple program that prints the name of a user. 
+    using System;
+    namespace PrintNameApplication {
+       class PrintUserName {
+          static void Main(string[] args) {
+             /* Write user name to console */
+       String userName;
+    userName = Console.ReadLine();
+             Console.WriteLine("Hello, " + username + ". How are you today?");
+          }
+       }
+    } 
+    Here is the explanation for the code –
+    •	Think of using keyword similar to the import or include statement that means if we want to use System namespace in the program, we include it using the ‘using’ statement. There can be many ‘using’ statements in a program.
+    •	Namespace contains a collection of classes. If there is more than one class with the same name, each class can be uniquely identified with the namespace.  
+    •	Class contains the method (in this case the main method). When we run the program, the main method is executed. Main method is the entry point for any C# program. 
+    •	In this program, we get user input and display the same with a message. Since we are getting it from console, we are using some basic I/O methods like ReadLine () and WriteLine (). 
+    
+
+</body>
+</html>
